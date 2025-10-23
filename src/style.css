@@ -85,3 +85,12 @@ button.btnTrocarTema{
     border-radius: 50%;
     padding: 5px 20px;
 }
+
+.btnDeletar{
+    background-color: #ff6161;
+}
+
+
+.btnDeletar:hover{
+    background-color: tomato;
+}
