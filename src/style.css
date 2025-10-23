@@ -1,0 +1,87 @@
+header{
+    width: 100%;
+    background-color: rgb(215, 240, 182);
+    margin-bottom: 2%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+body{
+    background: #f4f4f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.dark-mode{
+    background-color:  #0c0c0c;
+}
+
+.infos{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 247, 177);
+    padding: 2%;
+    border-radius: 15px;
+    border: 2px solid rgb(183, 243, 104);
+    margin-bottom: 2%;
+
+
+}
+
+.infos p{
+    max-width: 90%;
+    background-color: rgb(167, 216, 103);
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.btnProximo, .btnSalvarNovoHobbie{
+    background-color: rgb(33, 196, 87);
+    padding: 4%;
+    border-radius: 10px;
+    border: none;
+    color: #f4f4f7
+
+}
+
+.btnProximo:hover, .btnSalvarNovoHobbie:hover{
+    background-color: rgb(3, 71, 40);
+
+}
+
+.form{
+    width: 20%;
+    background-color: rgb(217, 247, 177);
+    padding: 3%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+
+}
+
+input.inputNovoHobbie{
+    padding: 2%;
+    border: 2px solid rgb(183, 243, 104);
+    margin-bottom: 2%;
+}
+
+button.btnTrocarTema{
+    background-color: #660707;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 20px;
+}
